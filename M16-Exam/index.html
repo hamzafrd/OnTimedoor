@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerDoor</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100&family=Spartan:wght@800&display=swap"
+        rel="stylesheet" />
+    <style>
+        body,
+        p,
+        h1 {
+            margin: 0;
+            font-family: "Spartan", sans-serif;
+        }
+
+        body {
+            background-image: url('/assets/cover1.jpg');
+            background-size: cover;
+        }
+
+        .sectionJudul {
+            text-align: center;
+        }
+
+        .sectionJudul>h1 {
+            font-size: 50px;
+            color: rgb(223, 181, 46);
+            padding-top: 50px;
+        }
+
+        .sectionJudul>h5 {
+            color: rgb(102, 60, 6);
+        }
+
+        .sectionJudul>img {
+            width: 1000px;
+            height: 500px;
+            border: 20px solid rgba(182, 181, 181, 0.281)
+        }
+
+        .sectionJudul>p {
+            font: 30pt;
+            color: rgb(243, 197, 72);
+        }
+
+        .bdr {
+            border: solid 2px red;
+        }
+
+        /* Section Breakfast */
+        .sectionBreakfast {
+            background-color: rgba(220, 220, 220, 0.637);
+            margin: 90px;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .sectionBreakfast>h3 {
+            font-size: 40pt;
+        }
+
+        .sectionBreakfastImage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+
+        .sectionBreakfastImage img {
+            width: 400px;
+            height: 250px;
+            padding: 10px;
+        }
+
+        /* Section Burger */
+        .sectionBurger {
+            background-color: rgba(220, 220, 220, 0.637);
+            margin: 90px;
+            padding: 10px;
+            text-align: center;
+
+        }
+
+        .sectionBurger>h3 {
+            font-size: 40pt;
+        }
+
+        .sectionBurger>div {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .sectionBurger>div>div>img {
+            width: 400px;
+            height: 250px;
+            padding: 10px;
+        }
+
+        .sectionTabel {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        .sectionTabel {
+            margin-bottom: 10vh;
+        }
+
+        .sectionTabel td,
+        th {
+            border: 2px solid rgb(84, 82, 87);
+            border-radius: 5px;
+            color: whitesmoke;
+            border-collapse: collapse;
+            background-color: rgba(34, 139, 34, 0.342);
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Section Judul -->
+    <section class="sectionJudul">
+        <h1>BURGERDOOR CAFE MENU</h1>
+        <h5>Since 1999</h5>
+        <img src="assets/cover2.jpg">
+        <p>Hungry Everyone? Scroll It Now !</p>
+    </section>
+
+    <section class="sectionBreakfast">
+        <h3>Breakfast</h3>
+        <div class="sectionBreakfastImage">
+            <div>
+                <img src="./assets/breakfast1.jpg" alt="Breakfast 1">
+                <h3>Fruitty Pretty Smoothies</h3>
+            </div>
+            <div>
+                <img src="./assets/breakfast2.jpg" alt="Breakfast 1">
+                <h3>Long Life Salads</h3>
+            </div>
+            <div>
+                <img src="./assets/breakfast3.jpg" alt="Breakfast 1">
+                <h3>Full Almonds Cookies</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionBurger">
+        <h3>Burger</h3>
+        <div>
+            <div>
+                <img src="./assets/breakfast1.jpg" alt="Breakfast 1">
+                <h3>Bikini Bottom Burger Set</h3>
+            </div>
+            <div>
+                <img src="./assets/breakfast2.jpg" alt="Breakfast 1">
+                <h3>Tasty Rice Burger</h3>
+            </div>
+            <div>
+                <img src="./assets/breakfast3.jpg" alt="Breakfast 1">
+                <h3>Simple Beef Burger</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionTabel">
+        <table>
+            <thead>
+                <th>Opening Hours</th>
+                <th>Location</th>
+                <th>Contacts</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">9 am until 10 pm</td>
+                    <td rowspan="2">Jalan Bersama No 1, Denpasar</td>
+                    <td>Phone :+62878 6233 1621</td>
+                </tr>
+                <tr>
+                    <td>Instagram : BurgerDoor</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
