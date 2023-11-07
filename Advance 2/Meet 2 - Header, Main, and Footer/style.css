@@ -1,0 +1,181 @@
+body {
+    background-image: url('assets/bg.jpg');
+    background-size: cover;
+
+}
+
+h1,
+h2 {
+    text-align: center;
+    padding: 5px;
+    color: rgb(118, 118, 129);
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.title {
+    font-style: italic;
+}
+
+
+h3,
+p {
+    text-align: center;
+    /* padding: 3px; */
+    color: steelblue;
+    font-family: 'Assistant', sans-serif;
+}
+
+.header {
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+}
+
+.title {
+    /* box-shadow: 10px 10px 5px rgb(27, 134, 167); */
+    color: aliceblue;
+    /* background-color:rgb(184, 119, 164); */
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+    height: 30%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 80px gainsboro;
+
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.item {
+    margin: 10px;
+    background-color: gainsboro;
+}
+
+img {
+    margin: 5px;
+}
+
+.portrait {
+    max-width: 100%;
+    max-height: 350px;
+}
+
+/* .landscape {
+    width: 300px;
+    height: 200px;
+} */
+.landscape {
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.table {
+    height: 120px;
+    width: 200px;
+    padding: 10px;
+}
+
+table,
+td,
+th {
+    border: 2px solid #ccaaeb;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'Assistant', sans-serif;
+}
+
+table {
+    width: 50%;
+    background-color: transparent;
+}
+
+th {
+    text-align: center;
+    height: 50px;
+    background-color: rgb(207, 148, 202)
+}
+
+td {
+    text-align: center;
+    height: 30px;
+    padding: 10px;
+}
+
+td>img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0px;
+    padding: 0px !important;
+}
+
+.main-header {
+    background-color: rgb(245, 235, 220);
+    padding-left: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.header-info {
+    text-align: left;
+    color: rgb(219, 84, 75);
+}
+
+.header-info a {
+    padding: 0;
+    text-decoration: none;
+}
+
+.header-info a:hover {
+    background-color: transparent
+}
+
+footer {
+    background-color: rgb(245, 235, 220);
+}
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.left-footer {
+    margin-right: auto;
+    margin-left: 40px;
+}
+
+.right-footer {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.center-footer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.info-left {
+    color: rgb(219, 84, 75);
+    text-align: left;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    * {
+        font-size: 2vw !important;
+        margin: 2px;
+    }
+
+
+}

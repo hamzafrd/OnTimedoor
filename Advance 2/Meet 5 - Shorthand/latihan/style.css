@@ -1,0 +1,56 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+	width: 200px;
+	height: 200px;
+}
+
+.bgred {
+	background-color: red;
+}
+
+.bgblue {
+	background-color: blue;
+}
+
+h1 {
+	text-align: center;
+}
+
+.div_a {
+	float: left;
+}
+.div_b {
+	float: left;
+}
+
+button {
+	margin-top: 10px;
+	border-color: black;
+	border: 1px solid white;
+	color: white;
+	background-color: black;
+	font-size: 20px;
+	border-radius: 8px;
+	padding: 5px 8px;
+
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+
+	/* transform: translate(10px, 10px); */
+	/* transform: rotate(30deg); */
+	/* transform: scale(1.1, 1.1); */
+	transform: skewY(30deg);
+}
+
+button:active {
+	transform: translateY(5px);
+	box-shadow: 0px 4px gainsboro;
+}

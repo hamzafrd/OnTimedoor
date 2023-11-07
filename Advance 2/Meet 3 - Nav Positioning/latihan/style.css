@@ -1,0 +1,56 @@
+main {
+    height: 200vh;
+}
+
+.static {
+    position: static;
+    border: 2px solid red;
+    left: 30px;
+}
+
+.relative {
+    position: relative;
+    border: 2px solid steelblue;
+    left: 10px;
+}
+
+.absolute {
+    position: absolute;
+    border: 2px solid green;
+    right: 0;
+    bottom: 0;
+}
+
+.fixed {
+    position: fixed;
+    border: 2px solid green;
+    left: 0;
+    bottom: 0;
+}
+
+.sticky {
+    position: sticky;
+    border: 2px solid red;
+    right: 0;
+    top: 0px;
+}
+
+nav {
+    /* width: 200px; */
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    display: block;
+    float: left;
+    min-width: 90px;
+    background-color: rgb(151, 153, 153);
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 4px;
+}
+
+a:hover {
+    background-color: burlywood;
+}
