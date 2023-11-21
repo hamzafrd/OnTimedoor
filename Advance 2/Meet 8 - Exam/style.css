@@ -1,0 +1,138 @@
+body {
+	margin: 5% 0 0 0;
+	padding: 0;
+}
+
+/* buat style untuk Header disini*/
+
+nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.bdr {
+	border: solid red;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.dropdown {
+	display: flex;
+	flex-direction: column;
+}
+
+.dropdown-content {
+	display: none;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	position: absolute;
+	top: 100%;
+	background-color: whitesmoke;
+}
+
+.dropdown-item:hover {
+	background-color: whitesmoke;
+	cursor: pointer;
+}
+
+a.dropdown-item {
+	min-width: 160px;
+	text-align: left;
+}
+
+li.dropdown-item:hover a.dropdown-item {
+	text-align: left;
+	color: gainsboro;
+}
+
+h3.price {
+	text-align: center;
+	font-size: 30px;
+}
+
+.list li {
+	list-style-type: disc;
+	padding: 5px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.tab {
+	background-color: white;
+	width: 250px;
+	min-height: 500px;
+	padding: 60px;
+	margin: 10px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 10px grey;
+}
+
+.home {
+	display: block;
+	text-align: center;
+}
+
+.home h1 {
+	font-size: 30px;
+}
+
+h1.name {
+	font-size: 27px;
+	letter-spacing: 2px;
+	margin-bottom: 20px;
+	color: black;
+	text-align: center;
+}
+
+h2.price {
+	font-size: 30px;
+	color: black;
+	text-align: center;
+}
+
+div.about {
+	display: flex;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	background-color: rgba(204, 198, 198, 0.568);
+	width: 80%;
+}
+
+.about {
+	text-align: left;
+	color: black;
+	padding: 10px;
+	width: 100%;
+}
+
+img.about-us {
+	max-width: 100%;
+	max-height: 100%;
+}
+
+div.image-about {
+	margin-bottom: auto;
+	margin-top: auto;
+}
+
+/* buat style untuk button disini */
+
+/* buat style untuk footer disini*/
