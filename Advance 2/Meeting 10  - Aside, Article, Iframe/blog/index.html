@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&amp;display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <img src="images/header-icon.png" alt="icon header">
+            <a href="#">Cobee The Coder</a>
+        </div>
+        <nav class="header-right">
+            <a href="#project">Project</a>
+            <a href="#contact">Contact</a>
+            <a href="#aboutus">About Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="jumbotron">
+            <div class="jumbotron">
+                <h1 class="jumbotron-title">Dapatkan Tips
+                    Programming Disini!</h1>
+                <div class="header-flex">
+                    <div>
+                        <h2 class="jumbotron-text">Baru
+                            di dunia Programming? <br> Belajar
+                            lewat pengembangan <span style="color: #2f59ff;">Game dan
+                                Web</span> sederhana!</h2>
+                        <div class="mini-text-flex">
+                            <p class="mini-text">Belajar
+                                programming dasar disini</p>
+                            <button id="icon-up" onclick="changeText()">
+                                <i class="far fa-hand-point-up"></i>
+                            </button>
+                            <button id="icon-down" class="icon-down">
+                                <i class="far fa-hand-point-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div>
+                        <img class="jumbotron-img" src="images/laptopHero.webp" alt="" width="auto" height="300">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="main-content">
+            <aside>
+                <div>
+                    <h3 class="aside-title">It's Mr Hamza</h3>
+                    <img class="profile-picture" src="images/beckham.png" alt="profile" width="200px" height="200px">
+                </div>
+            </aside>
+            <div class="content">
+                <article id="maps">
+                    <h3 class="article-title">My Maps</h3>
+                    <div class="maps">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.233037404899!2d106.84849780930924!3d-6.3638793622255365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec68dbd43da7%3A0x866960a60d8823a3!2sAREMAN%20RESIDENCE!5e0!3m2!1sen!2sid!4v1701068379485!5m2!1sen!2sid"
+                            width="500" height="350" loading="lazy"></iframe>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <div class="info-top">
+                Mr Hamza - Web Developer
+            </div>
+
+            <div class="social-media">
+                <div class="fab fa-instagram-square"></div>
+                <div class="fab fa-twitter-square"></div>
+                <div class="fab fa-facebook-square"></div>
+                <div class="fas fa-envelope"></div>
+            </div>
+
+            <p class="info-center">
+                Copyright &copy; 2021.
+                Cobee. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
