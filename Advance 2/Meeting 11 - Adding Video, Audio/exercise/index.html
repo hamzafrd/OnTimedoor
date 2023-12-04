@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet 11 - Video and Audio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <section class="container flex border-red">
+            <article>
+                <h3>
+                    Let's Learn About Coding With Me
+                </h3>
+                <video width="320" height="240" controls>
+                    <source src="assets/coding.mp4">
+                </video>
+            </article>
+            <article>
+                <h3>BackSound</h3>
+                <audio controls>
+                    <source src="assets/BravePilots.ogg">
+                </audio>
+            </article>
+            <article>
+                <h3>Youtube</h3>
+                <iframe width="320" height="240" src="https://www.youtube.com/embed/hb7Q33ysCwI?si=jQ8ztYPCQemXZSVY"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </article>
+
+            <h3 class="hello">Hello world</h3>
+        </section>
+
+
+
+        <section class="container">
+            <button onclick="dayMode()">Day</button>
+            <button onclick="nightMode()">Night</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
