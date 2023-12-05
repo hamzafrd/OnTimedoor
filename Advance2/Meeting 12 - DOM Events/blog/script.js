@@ -33,7 +33,7 @@ function dislikeColor() {
 }
 
 function changeImage(e) {
-    e.setAttribute("src", "images/laptopHero-2.png")
+    e.setAttribute("src", "images/laptopHero-2.webp")
 }
 
 const changeImageBack = (e) => {

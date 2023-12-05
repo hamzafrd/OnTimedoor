@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body onkeydown="keypress()">
+<body>
     <main>
-        <img src="https://media.giphy.com/media/VTtANKl0beDFQRLDTh/giphy.gif" alt="Code" width="100" height="auto"
+        <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif" alt=" Code" width="500" height="auto"
             onmouseover="rotateGif(this)" onmouseout="rotateBack(this)">
 
-        <div id="div" onscroll="scrolling()" onscrollend="scrollend()">
+        <div id="div" onscroll="scrolling()" onscrollend="scrollend()" onkeydown="keypress(this)">
             <h3>Bagaimana membedakan HTML, CSS, dan
                 Javascript pada website?</h3>
             <p>HTML, CSS, dan Javascript bisa di
@@ -23,6 +23,8 @@
                 adalah sel saraf yang membuat manusia bisa
                 bergerak dan berinteraksi</p>
         </div>
+
+
     </main>
 
     <script src="script.js"></script>

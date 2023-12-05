@@ -16,8 +16,7 @@ function scrollend() {
     document.getElementById("div").style.color = "black";
 }
 
-const keypress = () => {
-    const content = document.getElementById("div")
+const keypress = (content) => {
     content.innerHTML = " You Pressed a Key " + content.innerHTML
     content.style.color = "blue"
 }
