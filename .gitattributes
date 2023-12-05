@@ -5,3 +5,11 @@ Advance1/**/*.less linguist-vendored=false
 Advance2/**/*.scss linguist-vendored=false
 Advance2/**/*.css linguist-vendored=false
 Advance2/**/*.less linguist-vendored=false
+
+**/*.scss export-ignore
+**/*.css export-ignore
+**/*.less export-ignore
+
+**/**/*.scss export-ignore
+**/**/*.css export-ignore
+**/**/*.less export-ignore
