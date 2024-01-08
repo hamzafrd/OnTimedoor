@@ -1,0 +1,59 @@
+.container {
+	display: flex;
+	justify-content: space-around;
+}
+
+.item {
+	display: inline-block;
+	padding: 6px;
+	background-color: gainsboro;
+	border-radius: 10px;
+	width: 100px;
+	position: relative;
+	margin: 0 5px;
+	text-align: center;
+	box-shadow: 5px 5px 10px rgb(177, 169, 169);
+}
+.item a {
+	text-decoration: none;
+	color: black;
+}
+.name {
+	margin: 0;
+}
+.company {
+	font-size: 10px;
+	margin-top: 3px;
+}
+.img {
+	border-radius: 8px;
+	margin-top: 5px;
+}
+.close {
+	position: absolute;
+	top: 0px;
+	right: 0;
+	font-weight: bold;
+	padding: 10px;
+	background-color: burlywood;
+	border-radius: 3px;
+}
+
+.close:hover {
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
+
+input {
+	margin: 0 15px 5px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid cadetblue;
+	width: 450px;
+}
+.submit {
+	border-radius: 5px;
+	padding: 6px;
+	width: 100px;
+}

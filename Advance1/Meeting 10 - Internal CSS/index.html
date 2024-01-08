@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meeting 10 - Internal CSS</title>
+    <style>
+        h1 {
+            color: yellow;
+            text-align: center;
+        }
+
+        #h1-red {
+            color: red;
+        }
+
+
+        /* Element/tag selector */
+        /* div {
+            display: inline-block;
+            background-color: red;
+            padding: 55px;
+            margin: 10px;
+        }
+
+        section {
+            display: inline-block;
+            background-color: red;
+            padding: 55px;
+            margin: 10px;
+        } */
+
+        /* ID selector */
+        /* #box-blue {
+            background-color: blue;
+        } */
+
+        /* Class Selector */
+        /* .box-black {
+            background-color: black;
+        }
+
+        #box-blue,
+        .box-black {
+            height: 25vh;
+        } */
+
+
+        h1.green {
+            color: green;
+        }
+
+        h2.green {
+            color: red
+        }
+
+        .red {
+            color: red;
+        }
+
+        .bg-blue {
+            background-color: blue;
+        }
+
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+            color: burlywood;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Ini merah</h1>
+    <h2>Ini merah</h2>
+    <h3>Ini merah</h3>
+    <p>Ini merah</p>
+    <div>
+        <h1 class="red bg-blue">Ini Warna Biru 1</h1>
+        <h1 id="h1-red">Ini Warna Merah 2</h1>
+        <h1 class="green">Ini Warna Ijo 3</h1>
+        <h2 class="green">Ini Warna Ijo 3</h2>
+        <h3 class="green">Ini Warna Ijo 3</h3>
+    </div>
+
+    <div></div>
+    <div id="box-blue"></div>
+    <div class="box-black"></div>
+    <section class="box-black"></section>
+</body>
+
+</html>

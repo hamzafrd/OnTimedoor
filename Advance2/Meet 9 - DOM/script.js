@@ -8,3 +8,7 @@ function changeText() {
     document.getElementById("icon-down").style.
         display = "block";
 }
+
+document.getElementById('hello').innerHTML = "Hello Jasmine"
+document.querySelector('p').innerHTML = "Hello Chris"
+document.querySelectorAll('p')

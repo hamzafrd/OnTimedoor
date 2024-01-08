@@ -1,0 +1,120 @@
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+/* Mulai style untuk header */
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 0px;
+}
+
+header > * {
+	margin: auto 20px;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	color: rgb(33, 45, 64);
+	padding: 10px;
+}
+/* akhir dari style header */
+
+/* Mulai style Jumbotron */
+#jumbotron {
+	display: flex;
+	justify-content: space-around;
+	background-image: url("./assets/jumbotron-bg.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+/* akhir style jumbotron */
+
+/* Mulai style untuk section id project */
+#project {
+	display: flex;
+	border: solid;
+}
+
+/* aside */
+#project aside {
+	text-align: center;
+	border-right: solid;
+	padding-right: 20px;
+}
+
+.aside-profile-photo {
+	border: solid;
+	border-radius: 50%;
+	box-shadow: 0 0 20px gainsboro;
+	width: 70%;
+}
+
+.aside-like-dislike {
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+}
+
+.aside-like-dislike > i {
+	margin: 0px 10px;
+}
+
+/* main content */
+.project-main-content {
+	text-align: center;
+}
+.project-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.card {
+	width: 30%;
+	height: 300px;
+	margin: 20px;
+	border: solid;
+	text-align: center;
+}
+
+.card > p {
+	text-align: justify;
+	padding: 0px 10px;
+}
+
+.card > img {
+	width: 100%;
+	height: 150px;
+}
+/* akhir dari section id project */
+
+/* Mulai style untuk footer */
+footer {
+	text-align: center;
+}
+footer > h3 {
+	color: rgb(33, 45, 64);
+}
+
+footer > i {
+	color: rgb(33, 45, 64);
+}
+
+footer > p {
+	border-top: 1px solid rgb(33, 45, 64);
+	padding-top: 15px;
+}
+
+/* akhir dari footer */
+
+/* Other stuff */
+.container {
+	padding: 0px 20px;
+}

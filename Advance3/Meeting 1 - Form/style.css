@@ -1,0 +1,16 @@
+form {
+	width: 35%;
+	display: flex;
+	flex-direction: column;
+}
+input,
+textarea,
+select {
+	border: 2px solid red;
+	margin: 2px 0;
+	outline-color: red;
+}
+
+input[type="submit"]:active {
+	background-color: red;
+}
