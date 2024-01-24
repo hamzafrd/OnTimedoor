@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="form">
+        <h3 class="title">Coding Competition <br>
+            Enrollment 2021</h3>
+        <form action="result.html" target="blank" method="GET" autocomplete="off">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Masukan nama Lengkap" readonly>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" disabled>
+            <label for="address">Address</label>
+            <textarea id="address" name="address" cols="30" row="10" required></textarea>
+            <label for="phone">Phone Number</label>
+            <input type="text" id="phone" name="phone" required>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" min="8" max="21">
+
+            <label for="birthdate">tanggal lahir</label>
+            <input type="date" id="birthdate" name="birthdate">
+
+            <label>Gender</label><br>
+            <input type="radio" name="gender" id="pria" value="pria" class="check">
+            <label for="pria">Pria</label><br>
+            <input type="radio" name="gender" id="wanita" value="pria" class="check">
+            <label for="pria">Wanita</label><br>
+
+            <label>Documents</label><br>
+            <input type="checkbox" name="studentCard" id="studentCard" value="studentCard" class="check">
+            <label for="pria">Student Card</label><br>
+            <input type="checkbox" name="Biodata" id="Biodata" value="Biodata" class="check">
+            <label for="Biodata">Biodata</label><br>
+            <input type="checkbox" name="ContactForm" id="ContactForm" value="ContactForm" class="check">
+            <label for="ContactForm">Contact Form</label><br>
+
+            <label for="birthdate">tanggal lahir</label>
+            <input type="date" id="birthdate" name="birthdate" min="2024-01-08" max="2024-01-09">
+
+            <label for="Password">Password</label>
+            <input type="password" id="Password" name="Password">
+
+            <input type="submit" value="Submit" class="submit-btn">
+        </form>
+    </div>
+</body>
+
+</html>

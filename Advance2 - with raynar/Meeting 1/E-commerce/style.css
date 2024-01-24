@@ -1,0 +1,48 @@
+.title-shop,
+.best-seller,
+#product {
+	text-align: center;
+}
+
+.product-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	color: black;
+}
+
+.product-content img {
+	width: 200px;
+	max-width: 100%;
+	max-height: auto;
+}
+
+#table-price {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+body {
+	font-family: "Mochiy Pop One", sans-serif;
+	background-image: url(assets/bg.webp);
+	background-size: contain;
+	color: white;
+}
+
+.best-seller-title {
+	color: black;
+}
+
+#table-price table {
+	border-collapse: collapse;
+	width: 80%;
+}
+
+#table-price th,
+td {
+	border: solid red;
+	padding: 10px;
+	background-color: blue;
+}

@@ -1,0 +1,11 @@
+h3 + p {
+	color: red;
+}
+
+.container > h1 {
+	color: red;
+}
+
+.container > p {
+	color: blue;
+}

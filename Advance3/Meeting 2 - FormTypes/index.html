@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="onBoarding.html" method="post">
+        <label for="firstname">Nickname</label>
+        <input type="text" name="firstname" id="firstname">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+
+        <label for="verif">Enter Number Below : <b>5444312</b></label>
+        <input type="number" name="verif" id="verif">
+
+        <label for="verif">Enter Number Below : <b>Not greater than 5</b></label>
+        <input type="number" name="verif" id="verif" min="3" max="5">
+
+        <label for="Email">Email</label>
+        <input type="email" name="Email" id="Email">
+
+        <label for="Date">Date</label>
+        <input type="date" name="Date" id="Date">
+
+        <label for="pencil">Pencil</label>
+        <input type="checkbox" name="pencil" id="pencil" value="pencil">
+
+
+        <input type="submit">
+    </form>
+</body>
+
+</html>

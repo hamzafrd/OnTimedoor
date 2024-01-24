@@ -1,0 +1,31 @@
+h3 ~ p {
+	color: red;
+}
+div > p {
+	color: blue;
+}
+/* 
+h1 + p {
+	color: green;
+}
+
+div > p {
+	color: red;
+}
+
+input[type="number"]:placeholder-shown {
+	background-color: bisque;
+}
+input:enabled {
+	background-color: white;
+}
+input:disabled {
+	background-color: coral;
+}
+
+* {
+	color: black;
+}
+:not(label) {
+	color: brown;
+} */
