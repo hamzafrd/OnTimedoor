@@ -22,3 +22,15 @@ input[type="submit"] {
 input[type="submit"]:active {
 	background-color: blue;
 }
+
+input[type="checkbox"] {
+	width: 10%;
+}
+
+.group-multiple {
+	display: flex;
+}
+.checkbox,
+.radio {
+	width: 50%;
+}

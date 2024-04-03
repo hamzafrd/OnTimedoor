@@ -1,0 +1,23 @@
+Judul Project : Complete The Maze
+Scratch
+Adventure
+
+Berlevel 1 - totorial
+Pakai arrow keyboard
+Anak kecil, musuh yang bergerak
+Level rintangan bertambah
+
+Kondisi menang :
+Keluar dari maze
+Kondisi kalah musuhnya
+
+Nico
+Judul Project : -
+Tema game : Shooting game
+Ada orang, ada musuh s
+
+karakter utama orang, Monster
+wasd, dari atas
+nyamperin playersnya
+Berhasil membunuh final bossnya
+Nyawanya habis

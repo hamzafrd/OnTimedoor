@@ -1,0 +1,76 @@
+@media (max-width: 1020px) {
+	* {
+		font-size: 2.5vw;
+	}
+
+	header {
+		background-color: green;
+	}
+
+	.splash h1 {
+		font-size: 3vw;
+	}
+
+	.astronaut-dabbing {
+		top: 56%;
+		left: 18%;
+		width: 200px;
+	}
+
+	.astronaut-takeoff {
+		top: 96%;
+		left: 5%;
+	}
+
+	.jumbotron {
+		padding: 4rem 1rem;
+	}
+
+	.jumbotron-title {
+		font-size: 4vw;
+	}
+
+	.header-flex {
+		flex-direction: column-reverse;
+		align-items: center;
+		gap: 2rem;
+	}
+
+	.jumbotron-wave,
+	.jumbotron-wave-2 {
+		display: none;
+	}
+
+	section#main-content {
+		background-color: whitesmoke;
+		padding-top: 0px;
+	}
+
+	/* project (sebelah kanan) */
+	.project-container {
+		flex-direction: column;
+		padding: 0 10px;
+	}
+
+	.project {
+		width: max(550px, 100%);
+		max-width: 100%;
+		margin: 10px 0;
+	}
+
+	iframe {
+		max-width: 100%;
+	}
+
+	/* Project.HTML */
+}
+
+@media (max-width: 725px) {
+	/* aside {
+		display: none;
+	} */
+
+	/* .content {
+		width: 100%;
+	} */
+}

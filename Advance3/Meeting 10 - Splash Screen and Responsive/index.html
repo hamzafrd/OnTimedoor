@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.responsive.css">
+    <script src="https://kit.fontawesome.com/f90068558c.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&amp;display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="splash" style="display: none;">
+        <h1 class="splash-text" data-aos="fade-right" data-aos-duration="200"> Hello Guys!
+            <br> Welcome to the club
+        </h1>
+        <img class="astronaut-dabbing" src="images/astronaut1.png" alt="">
+        <img class="astronaut-takeoff" src="images/astronaut2.png" alt="">
+    </div>
+
+    <header>
+        <div class="header-left">
+            <img src="images/header-icon.png" alt="icon header">
+            <a href="#">Mr Hamza - Web Developer</a>
+            <a href="#" class="exercise">Exercise</a>
+        </div>
+
+        <nav class="header-right">
+            <a href="project.html">Project</a>
+            <a href="contact.html">Contact</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="jumbotron">
+            <div class="jumbotron">
+                <h1 class="jumbotron-title" data-aos="zoom-in-right" data-aos-duration="5000" data-aos-once="true"
+                    onmouseover="changeTitle(this)" onmouseleave="changeTitleBack(this)">
+                    Dapatkan Tips
+                    Programming Disini!</h1>
+                <div class="header-flex">
+                    <div data-aos="fade-right" data-aos-duration="5000" data-aos-offset="-100" data-aos-once="true"
+                        data-aos-delay="500">
+                        <h2 class="jumbotron-text">
+                            Baru
+                            di dunia Programming? <br> Belajar
+                            lewat pengembangan <span style="color: #2f59ff;">Game dan
+                                Web</span> sederhana!</h2>
+                        <div class="mini-text-flex">
+                            <p class="mini-text">Belajar
+                                programming dasar disini</p>
+                            <button id="icon-up" onclick="changeText()">
+                                <i class="far fa-hand-point-up"></i>
+                            </button>
+                            <button id="icon-down" class="icon-down">
+                                <i class="far fa-hand-point-down"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="jumbotron-img-container">
+                        <img class="jumbotron-img" onmouseover="changeImage(this)" onmouseleave="changeImageBack(this)"
+                            src="images/laptopHero.webp" alt="hero images">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="jumbotron-wave">
+            <path fill="#ffc017" fill-opacity="1"
+                d="M0,192L60,176C120,160,240,128,360,133.3C480,139,600,181,720,176C840,171,960,117,1080,96C1200,75,1320,85,1380,90.7L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="jumbotron-wave-2">
+            <path fill="#ffff0" fill-opacity="1"
+                d="M0,192L60,176C120,160,240,128,360,133.3C480,139,600,181,720,176C840,171,960,117,1080,96C1200,75,1320,85,1380,90.7L1440,96L1440,0L1380,0C1320,0,1200,0,1080,0C960,0,840,0,720,0C600,0,480,0,360,0C240,0,120,0,60,0L0,0Z">
+            </path>
+        </svg>
+
+        <section id="main-content" data-aos="fade-in" data-aos-offset="300" data-aos-once="true">
+            <div class="main-content">
+                <aside>
+                    <div class="profile-container">
+                        <h3 class="aside-title">It's Mr Hamza</h3>
+                        <img class="profile-picture" src="images/beckham.png" alt="profile" width="200px"
+                            height="200px">
+
+                        <div class="toggle">
+                            <div class="btn" id="green">
+                                <i class="fa fa-thumbs-up fa-lg"></i>
+                            </div>
+                            <div class="btn" id="red">
+                                <i class="fa fa-thumbs-down fa-lg"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="search-tags-container">
+                        <div class="input-tag">
+                            <h3 class="aside-title">Add New Item Here</h3>
+                            <input id="myInput" type="text" placeholder="Javascript..">
+                            <span class="addBtn" onclick="newElement()">Add</span>
+                        </div>
+                        <ul id="myUL" class="search-tags-list">
+                            <li class="search-tags-item">HTML</li>
+                            <li class="search-tags-item">Code</li>
+                        </ul>
+                    </div>
+                </aside>
+
+                <div class="content">
+                    <article id="my-project">
+                        <h3 class="article-title">My Project</h3>
+
+                        <div class="project-container">
+                            <div class="project" id="personal-blog">
+                                <div class="project-img">
+                                    <img src="images/project-blog.png" alt="">
+                                </div>
+                                <h4 class="project-title">Personal Blog</h4>
+                                <p class="project-description">Wesbite Blog menggunakan Html, CSS dan Javascript</p>
+                            </div>
+                            <div class="project" id="project-snake">
+                                <div class="project-img">
+                                    <img src="images/project-snake.png" alt="">
+                                </div>
+                                <h4 class="project-title">Snake Game</h4>
+                                <p class="project-description">Game Snake menggunakan HTML dan Javascript</p>
+                            </div>
+                        </div>
+
+                        <div class="project-container">
+                            <div class="project">
+                                <div class="project-img">
+                                    <img src="images/project-porto.png" alt="">
+                                </div>
+                                <h4 class="project-title">My Articles</h4>
+                                <p class="project-description">Website Article menggunakan Html, CSS dan Javascript</p>
+                            </div>
+                        </div>
+
+                    </article>
+
+                    <article id="video">
+                        <div class="item-video">
+                            <div class="article-title">What is Coding?</div>
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/XMZFUnAgOqs?si=-4Sustw4L76QWSZk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                            <div class="article-title">Cosing is Not Difficult</div>
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/hb7Q33ysCwI?si=3eAaFlZzuXEgZh08"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </div>
+                    </article>
+
+                    <article id="maps">
+                        <h3 class="article-title">My Maps</h3>
+                        <div class="maps">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.233037404899!2d106.84849780930924!3d-6.3638793622255365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec68dbd43da7%3A0x866960a60d8823a3!2sAREMAN%20RESIDENCE!5e0!3m2!1sen!2sid!4v1701068379485!5m2!1sen!2sid"
+                                width="500" height="350" loading="lazy"></iframe>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="main-footer">
+            <div class="info-top">
+                Mr Hamza - Web Developer
+            </div>
+
+            <div class="social-media">
+                <div class="fab fa-instagram-square"></div>
+                <div class="fab fa-twitter-square"></div>
+                <div class="fab fa-facebook-square"></div>
+                <div class="fas fa-envelope"></div>
+            </div>
+
+            <p class="info-center">
+                Copyright &copy; 2023.
+                Mr Hamza. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

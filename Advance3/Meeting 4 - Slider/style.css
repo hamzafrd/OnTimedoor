@@ -65,3 +65,7 @@
 	cursor: pointer;
 	margin: 0 5px;
 }
+
+.test {
+	clip-path: circle(99.6% at 0 51%);
+}

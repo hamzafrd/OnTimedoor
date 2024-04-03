@@ -1,0 +1,74 @@
+:root {
+	--aircraft-width: 100px;
+}
+
+.container {
+	width: 100%;
+	border: 2px solid black;
+}
+
+.aircraft {
+	display: block;
+	width: var(--aircraft-width);
+	margin: 20px 0px;
+	transition-duration: 3s;
+	transition-property: margin-left;
+	/* transition-delay: 2s; */
+}
+
+.container:hover .aircraft {
+	margin-left: calc(100% - var(--aircraft-width));
+	padding-top: 100px;
+}
+
+.last-aircraft {
+	display: block;
+	width: var(--aircraft-width);
+	opacity: 0.5;
+	margin: 20px 0px;
+	transition: width 3s ease-in 1s,
+		opacity 3s ease-out 1s,
+		margin-left 3s ease-in-out 1s;
+}
+
+.last-aircraft:hover {
+	margin-left: calc(50% - var(--aircraft-width));
+	opacity: 1;
+}
+
+.n {
+	display: none;
+}
+
+.aircraft-1 {
+	transition-timing-function: ease;
+}
+
+.aircraft-2 {
+	transition-timing-function: ease-in;
+}
+
+.aircraft-3 {
+	transition-timing-function: ease-out;
+}
+
+.aircraft-4 {
+	transition-timing-function: ease-in-out;
+}
+
+.aircraft-5 {
+	transition-timing-function: linear;
+}
+
+.aircraft-6 {
+	transition-timing-function: steps(5, jump-none);
+}
+
+.aircraft-7 {
+	transition-timing-function: cubic-bezier(
+		0,
+		1.37,
+		0.97,
+		-0.02
+	);
+}

@@ -11,13 +11,13 @@
 <body>
     <form action="onBoarding.html" method="post">
         <label for="firstname">Nickname</label>
-        <input type="text" name="firstname" id="firstname">
+        <input type="text" name="firstname" id="firstname" placeholder="Isi nama panggilan mu">
 
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" autofocus>
 
         <label for="verif">Enter Number Below : <b>5444312</b></label>
-        <input type="number" name="verif" id="verif">
+        <input type="number" name="verif" id="verif" disabled>
 
         <label for="verif">Enter Number Below : <b>Not greater than 5</b></label>
         <input type="number" name="verif" id="verif" min="3" max="5">
@@ -28,8 +28,31 @@
         <label for="Date">Date</label>
         <input type="date" name="Date" id="Date">
 
-        <label for="pencil">Pencil</label>
-        <input type="checkbox" name="pencil" id="pencil" value="pencil">
+        <div class="group-multiple">
+            <div class="checkbox">
+                <input type="checkbox" name="pencil" id="pencil" value="pencil">
+                <span for="pencil">Pencil Gede Sekali</span>
+                </br>
+                <input type="checkbox" name="pulpen" id="pulpen" value="pulpen">
+                <label for="pulpen">Pulpen</label>
+                <br>
+                <input type="checkbox" name="bolpoin" id="bolpoin" value="bolpoin">
+                <label for="bolpoin">Bolpoin</label>
+                </br>
+            </div>
+            <div class="radio">
+                <input type="radio" name="tools" id="pencil" value="pencil">
+                <label for="pencil">Pencil</label>
+                </br>
+                <input type="radio" name="tools" id="pulpen" value="pulpen">
+                <label for="pulpen">Pulpen</label>
+                <br>
+                <input type="radio" name="tools" id="bolpoin" value="bolpoin">
+                <label for="bolpoin">Bolpoin</label>
+                </br>
+            </div>
+        </div>
+
 
 
         <input type="submit">

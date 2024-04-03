@@ -14,14 +14,13 @@ for (let i = 0; i < close.length; i++) {
 //  Event Bubbling
 const item = document.querySelectorAll('.item')
 
-for (let i = 0; i < item.length; i++) {
-    const element = item[i]
+item.forEach((e, index) => {
+    e.style.cursor = "pointer"
 
-    element.addEventListener('click', () => {
-        alert('Item ' + [i + 1] + ' Clicked')
+    e.addEventListener('click', () => {
+        alert('item ' + index + ' clicked !')
     })
-}
-
+})
 // Input form
 const sendData = () => {
     alert('Successfully Send The Data')

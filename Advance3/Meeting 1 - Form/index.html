@@ -9,18 +9,21 @@
 </head>
 
 <body>
-    <form action="onBoarding.html" method="post">
+    <form action='onBoarding.html' target="_blank" method="get">
         <label for="firstname">Nama depan</label>
-        <input type="text" name="firstname" id="firstname">
+        <input type="text" id="firstname" name="namaDepan">
 
         <label for="alamat">Alamat</label>
         <textarea name="alamat" id="alamat" cols="30" rows="10"></textarea>
 
-        <label for="negara">Negara</label>
-        <select name="negara" id="negara">
-            <option value="Indonesia">Indonesia</option>
-            <option value="Singapore">Singapore</option>
-            <option value="Thailand">Thailand</option>
+        <label for="noTelp">No. Telp</label>
+        <input type="number" id="number" name="number">
+
+        <label for="negara">Level Favorite</label>
+        <select name="level" id="negara">
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
         </select>
 
         <input type="submit">

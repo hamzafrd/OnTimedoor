@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@images/*": ["assets/images/*"]
+    }
+  },
+  "include": ["./src/**/**/*"]
+}

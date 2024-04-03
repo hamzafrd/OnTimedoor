@@ -4,7 +4,7 @@ h3 ~ p {
 div > p {
 	color: blue;
 }
-/* 
+
 h1 + p {
 	color: green;
 }
@@ -28,4 +28,4 @@ input:disabled {
 }
 :not(label) {
 	color: brown;
-} */
+}

@@ -1,0 +1,38 @@
+body {
+	background-color: rgb(21, 21, 54);
+}
+
+.car {
+	width: 200px;
+	border: solid red;
+	animation: gerakanMobil 2s alternate forwards;
+
+	/* animation-direction: alternate;
+	animation-fill-mode: forwards; */
+}
+
+.container {
+	border: solid red;
+}
+
+@keyframes gerakanMobil {
+	0% {
+		margin-top: 0;
+		margin-left: 0;
+	}
+
+	25% {
+		margin-top: 0;
+		margin-left: calc(50% - 100px);
+	}
+
+	50% {
+		margin-top: 250px;
+		margin-left: calc(50% - 100px);
+	}
+
+	100% {
+		margin-top: 250px;
+		margin-left: calc(100% - 200px);
+	}
+}
