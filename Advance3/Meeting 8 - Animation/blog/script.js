@@ -1,4 +1,3 @@
-AOS.init()
 
 function changeText() {
     var replaceText = document.
@@ -114,3 +113,4 @@ function newElement() {
     })
 }
 
+AOS.init()

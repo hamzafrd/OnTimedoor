@@ -5,10 +5,20 @@ body {
 .car {
 	width: 200px;
 	border: solid red;
-	animation: gerakanMobil 2s alternate forwards;
-
+	/* animation: gerakanMobil 2s alternate forwards; */
 	/* animation-direction: alternate;
 	animation-fill-mode: forwards; */
+	/* 
+	animation-name: gerakanMobil;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: both;
+	animation-delay: 2s; */
+
+	animation: gerakanMobil 5s infinite alternate;
+
+	background-color: red;
 }
 
 .container {
@@ -19,6 +29,8 @@ body {
 	0% {
 		margin-top: 0;
 		margin-left: 0;
+
+		background-color: blue;
 	}
 
 	25% {
